@@ -9,7 +9,8 @@
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
-
+        
+        /* regular html tags */
         body{
             background-color: aqua;
         }
@@ -18,21 +19,23 @@
             color: red;
             text-align: center;
         }
-
+        /* IDs */
         #titulo{
-            color: rgb(200,150,220);
+            color: rgb(173, 66, 216);
             text-align: right;
         }
 
+        /* defining properties for class izquierda */
         .izquierda{
             color: green;
         }
-
+        /* Define properties for all p tags, with class izquierda */
         p.izquierda{
             text-decoration: underline;
             text-align: left;
         }
 
+        /* Class contraste */
         .contraste{
             background-color: black;
         }
@@ -41,6 +44,9 @@
             font-weight: bold;
         }
 
+        p#titulo{
+            text-decoration: line-through;
+        }
         /* Comentario CSS */
 
 
@@ -53,7 +59,9 @@
     <p>Parrafo simple</p>
 
     <h3 class="izquierda">Prueba clase Header 3</h3>
+    <!-- que onda mundo, esto es un comentario -->
     <p class="izquierda">Prueba clase parrafo</p>
+    <p id="titulo">Hola, otro p pero con ID titulo</p>
     <h3 class="izquierda contraste">Prueba multiples clases parrafo</h3>
     
 </body>
